@@ -252,6 +252,14 @@ function App() {
       </div>
 
       <Navbar />
+      <a
+        className="resume-fab"
+        href="/harsh-kumawat-resume.pdf"
+        download
+        aria-label="Download resume"
+      >
+        Download Resume
+      </a>
 
       <main>
         <section className="hero">
@@ -283,6 +291,13 @@ function App() {
               </a>
               <a className="ghost" href="#contact">
                 Contact
+              </a>
+              <a
+                className="ghost resume-inline"
+                href="/harsh-kumawat-resume.pdf"
+                download
+              >
+                Download resume
               </a>
             </div>
             <div className="hero-meta reveal" style={{ '--delay': '340ms' }}>
