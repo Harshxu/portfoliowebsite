@@ -18,6 +18,8 @@
   z-index: 2000;
   overflow: hidden;
   transition: opacity 0.5s ease, filter 0.5s ease;
+  will-change: opacity, filter;
+  transform: translateZ(0);
 }
 
 .splash-hide {
@@ -1128,6 +1130,34 @@
 
   .marquee {
     font-size: 0.68rem;
+  }
+
+  .splash-content {
+    padding: 0 20px;
+  }
+
+  .splash-title {
+    font-size: clamp(1.6rem, 7vw, 2.4rem);
+    letter-spacing: 0.14em;
+  }
+
+  .splash-sub {
+    font-size: 0.72rem;
+    letter-spacing: 0.14em;
+  }
+
+  .splash-glow-one {
+    width: 360px;
+    height: 360px;
+    left: -140px;
+    top: -160px;
+  }
+
+  .splash-glow-two {
+    width: 320px;
+    height: 320px;
+    right: -140px;
+    bottom: -160px;
   }
 }
 
